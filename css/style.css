@@ -1,36 +1,52 @@
 @import "reset.css";
+@import "meadia.css";
+
 
 
 body {
-    width: 100%;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-input:focus {
-    outline: none;
+
+.head_nav_fullbox {
+    height: 30px;
+
 }
-.head_nav {
+
+.head_nav_fullbox_box {
     display: flex;
-    margin: 0px 460px;
-    padding: 8px 0px;
+    width: 1000px;
+    height: 30px;
+    margin: 0px auto;
     justify-content: flex-end;
+    align-items: center;
+
+
 }
 
 .main_head_box {
     display: flex;
-    margin: 0px 460px;
     justify-content: center;
 }
 
-.main_menu_box {
+
+.main_menu_bg_box {
+    width: 100vw;
+    height: 40px;
+}
+.main_menu_bg_box_li {
+    list-style: none;
     display: flex;
-    margin: 7px 460px 10px 460px;
+    width: 1000px;
+    margin: 0px auto;
 }
 
-.main_menu_box li {
+.main_menu_bg_box_li li {
     display: flex;
+    font-size: 20px;
+    height: 40px;
     padding: 0px 25px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     clear: both;
 
@@ -46,38 +62,34 @@ input:focus {
     height: 2px;
     margin-top: 2px;
     border-bottom: 1px solid #1164F4;
+    margin-bottom: 25px;
 } 
 
 .search_box {
     position: relative;
     display: flex;
+    width: 200px;
+    border: 1px solid black;
     align-items: center;
     justify-content: center;
     margin-left: 60px;
 }
 
-.search_box Input:checked + label + Input {
-    opacity: 100%;
-    transition: all 0.5s linear;
 
 
+
+.main_content_fullbox {
+    width: 100vw;
 }
 
-.search_box Input:checked + label {
-    opacity: 0%;
-    display: none;
-    transition: all 0.5s linear;
-
-
+.main_content_fullbox_bg {
+    display: flex;
+    width: 1000px;
+    margin:0px auto;
+    
 }
 
 
-.search_box label {
-    position: absolute;
-    left: 210px;
-    bottom: 1px;
-    z-index: 1;
-}
 
 .Input_search {
     position: absolute;
@@ -92,10 +104,6 @@ input:focus {
 }
 
 
-.main_content_box {
-    display: flex;
-    margin: 25px 460px 20px 460px;
-}
 
 .img_banner {
     width: 700px;
