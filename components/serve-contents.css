@@ -1,0 +1,76 @@
+.hotlayout {
+  width: 270px;
+  height: 555px;
+  border-radius: 4px;
+  border: 1px solid #707070;
+}
+
+.footer_box {
+  width: 100%;
+  margin-top: 100px;
+  height: 150px;
+  background-color: #f5f5f5;
+}
+
+.login_header_box {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid#707070;
+  padding-bottom: 15px;
+}
+
+.social_login_pannel {
+  display: flex;
+  font-size: 12px;
+  color: #ffdc00;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffdc00;
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 40px;
+}
+
+.email_login_pannel {
+  display: flex;
+  font-size: 12px;
+  color: #1164f4;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1164f4;
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 40px;
+}
+
+.login_navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin: 10px 12px 0px 5px;
+  color: #565656;
+}
+
+.login_nav_text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin: 10px 12px 0px 5px;
+  color: #565656;
+}
+
+.footer_box {
+  display: flex;
+  color: #a5a5a5;
+  align-items: center;
+  justify-content: center;
+}
+
+.boldline {
+  position: absolute;
+  top: 34px;
+  width: 57px;
+  height: 1;
+  border-bottom: 3px solid #707070;
+}
