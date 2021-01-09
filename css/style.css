@@ -1,9 +1,0 @@
-@import "reset.css";
-
-/* components */
-@import "components/header.css";
-@import "components/main.css";
-@import "components/footer.css";
-body {
-  font-family: "Noto Sans KR", sans-serif;
-}
