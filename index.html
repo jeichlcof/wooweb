@@ -67,43 +67,101 @@
     <!-- main munu -->
     <div class="main_menu_bg_box">
       <div class="main_menu_bg_box_li">
-        <li>
-          <span style="color: #1164f4">포럼</span>
-        </li>
-        <li>
-          <span style="color: #1164f4">디자인</span>
-        </li>
-        <li>
-          <span style="color: #1164f4">개발</span>
-        </li>
-        <li>
-          <span style="color: #1164f4">채용관</span>
-        </li>
-        <li>
-          <span style="color: #1164f4">고객센터</span>
-        </li>
-        <li>
-          <span style="color: #ffdc00">단톡참여</span>
-        </li>
-        <li>
-          <span
-            style="
-              font-size: 10px;
-              color: #1164f4;
-              font-family: 'Noto Sans KR', sans-serif;
-            "
-            >전체보기</span
-          >
-          <i
-            class="fas fa-chevron-down"
-            style="font-size: 11px; margin-left: 5px; color: blue"
-          ></i>
-        </li>
-        <div class="search_box">
-          <input type="checkbox" id="searchbox" style="display: none" />
-          <label for="searchbox"><i class="fas fa-search"></i></label>
-          <input class="Input_search" type="search" />
-        </div>
+        <ul class="drop-box-area main_menu_bg_box_li__size">
+          <li>
+            <span>포럼</span>
+            <div class="main_menu_bg_box_li_forummenu">
+              <a href="#">자유게시판</a>
+              <a href="#">스터디</a>
+              <a href="#">특강/세미나</a>
+            </div>
+          </li>
+          <li>
+            <span>디자인</span>
+            <div class="main_menu_bg_box_li_design_menu">
+              <a href="#">강의</a>
+              <a href="#">Q&A</a>
+              <a href="#">추천</a>
+              <a href="#">소스</a>
+              <a href="#">기타</a>
+            </div>
+          </li>
+          <li>
+            <span>개발</span>
+            <div class="main_menu_bg_box_li_develop_menu">
+              <a href="#">강의</a>
+              <a href="#">Q&A</a>
+              <a href="#">추천</a>
+              <a href="#">소스</a>
+              <a href="#">기타</a>
+            </div>
+          </li>
+          <li>
+            <span>채용관</span>
+            <div class="main_menu_bg_box_li_jobsearch_menu">
+              <a href="#">구인</a>
+              <a href="#">구직</a>
+              <a href="#">기업홍보관</a>
+              <a href="#">채용박람회</a>
+            </div>
+          </li>
+          <li>
+            <span>고객센터</span>
+            <div class="main_menu_bg_box_li_qa_menu">
+              <a href="#">자주 묻는 질문</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </li>
+          <li>
+            <span style="color: #ffdc00">단톡참여</span>
+          </li>
+
+          <div id="underline" class="main_menu_bgb_box_li_line hide"></div>
+          <li id="fullMenu">
+            <span style="font-size: 10px; color: #1164f4">전체보기</span>
+            <span>
+              <i
+                class="fas fa-chevron-down"
+                style="font-size: 11px; margin-left: 5px; color: blue"
+              ></i>
+            </span>
+          </li>
+          <div class="main_menu_box__drop">
+            <ul>
+              <li><a href="#">자유게시판</a></li>
+              <li><a href="#">특강</a></li>
+              <li><a href="#">세미나</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">강의</a></li>
+              <li><a href="#">Q&A</a></li>
+              <li><a href="#">주최</a></li>
+              <li><a href="#">소스</a></li>
+              <li><a href="#">기타</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">강의</a></li>
+              <li><a href="#">Q&A</a></li>
+              <li><a href="#">주최</a></li>
+              <li><a href="#">소스</a></li>
+              <li><a href="#">기타</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">구인</a></li>
+              <li><a href="#">구직</a></li>
+              <li><a href="#">기업홍보관</a></li>
+              <li><a href="#">기업홍보관</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">자주 묻는 질문</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+        </ul>
+        <form class="search_box">
+          <input id="search" type="text" />
+          <label for="search"><i class="fas fa-search"></i></label>
+        </form>
       </div>
     </div>
     <!-- main munu -->
@@ -161,5 +219,7 @@
     <div class="footer_box">
       <h1>WOOWEB</h1>
     </div>
+    <script src="menu-drop.js"></script>
+    <!-- <script src="search-box.js"></script> -->
   </body>
 </html>

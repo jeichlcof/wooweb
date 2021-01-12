@@ -1,0 +1,230 @@
+/* forum menu */
+
+.main_menu_bg_box_li_forummenu {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  width: 87px;
+  top: 42px;
+  left: 3px;
+  border: 0px solid #1164f4;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+.main_menu_bg_box_li li:hover > .main_menu_bg_box_li_forummenu {
+  height: 110px;
+  border: 1px solid #1164f4;
+}
+.main_menu_bg_box_li_forummenu > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #707070;
+}
+
+.main_menu_bg_box_li_forummenu > a:nth-child(1) {
+  margin-top: 15px;
+}
+
+.main_menu_bg_box_li_forummenu > a {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* design menu */
+
+.main_menu_bg_box_li_design_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92px;
+  top: 42px;
+  left: 4px;
+  border: 0px solid #1164f4;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+.main_menu_bg_box_li li:nth-child(2):hover > .main_menu_bg_box_li_design_menu {
+  height: 145px;
+  border: 1px solid #1164f4;
+}
+.main_menu_bg_box_li_design_menu > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #707070;
+}
+.main_menu_bg_box_li_design_menu > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #707070;
+}
+.main_menu_bg_box_li_design_menu > a {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/* develop menu */
+
+.main_menu_bg_box_li_develop_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 104px;
+  top: 42px;
+  left: -10px;
+  border: 0px solid #1164f4;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.main_menu_bg_box_li li:nth-child(3):hover > .main_menu_bg_box_li_develop_menu {
+  height: 142px;
+  border: 1px solid #1164f4;
+}
+.main_menu_bg_box_li_develop_menu > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #707070;
+}
+
+.main_menu_bg_box_li_develop_menu > a:nth-child(1) {
+  margin-top: 11px;
+}
+
+.main_menu_bg_box_li_develop_menu > a {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/* jobsearch_menu */
+
+.main_menu_bg_box_li_jobsearch_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 92px;
+  top: 42px;
+  left: 6px;
+  border: 0px solid #1164f4;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s linear;
+}
+
+.main_menu_bg_box_li
+  li:nth-child(4):hover
+  > .main_menu_bg_box_li_jobsearch_menu {
+  height: 115px;
+  border: 1px solid #1164f4;
+}
+
+.main_menu_bg_box_li_jobsearch_menu > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #707070;
+}
+.main_menu_bg_box_li_jobsearch_menu > a:nth-child(1) {
+  margin-top: 11px;
+}
+.main_menu_bg_box_li_jobsearch_menu > a {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/* question menu */
+
+.main_menu_bg_box_li_qa_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 140px;
+  top: 42px;
+  left: -8px;
+  border: 0px solid #1164f4;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s linear;
+}
+
+.main_menu_bg_box_li li:nth-child(5):hover > .main_menu_bg_box_li_qa_menu {
+  height: 110px;
+  border: 1px solid #1164f4;
+}
+
+.main_menu_bg_box_li_qa_menu > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #707070;
+}
+.main_menu_bg_box_li_qa_menu > a:nth-child(1) {
+  margin-top: 11px;
+}
+
+.main_menu_bg_box_li_qa_menu > a {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/* bgb_box_li_line : moving underline */
+
+.hide {
+  opacity: 0;
+}
+
+.main_menu_bgb_box_li_line {
+  position: absolute;
+  opacity: 0;
+  left: 3px;
+  top: 43px;
+  width: 89px;
+  border-bottom: 5px solid #1164f4;
+  transition: all 0.1s linear;
+}
+
+.main_menu_bg_box_li li:nth-child(6):hover ~ .main_menu_bgb_box_li_line {
+  opacity: 1;
+  left: 495px;
+  border-bottom: 5px solid #ffdc00;
+  width: 100px;
+}
+
+.main_menu_bg_box_li li:nth-child(5):hover ~ .main_menu_bgb_box_li_line {
+  opacity: 1;
+  left: 356px;
+  width: 142px;
+}
+
+.main_menu_bg_box_li li:nth-child(4):hover ~ .main_menu_bgb_box_li_line {
+  opacity: 1;
+  left: 270px;
+  width: 94px;
+}
+
+.main_menu_bg_box_li li:nth-child(3):hover ~ .main_menu_bgb_box_li_line {
+  opacity: 1;
+  left: 172px;
+  width: 106px;
+}
+
+.main_menu_bg_box_li li:nth-child(2):hover ~ .main_menu_bgb_box_li_line {
+  opacity: 1;
+  left: 86px;
+  width: 94px;
+}
+
+.main_menu_bg_box_li li:nth-child(1):hover ~ .main_menu_bgb_box_li_line {
+  opacity: 1;
+  left: 3px;
+}

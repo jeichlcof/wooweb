@@ -5,6 +5,11 @@
 @import "components/footer.css";
 @import "components/main-contents.css";
 @import "components/serve-contents.css";
+
+/* function */
+@import "function/full-drop.css";
+@import "function/hover-drop.css";
+@import "function/social-email-hover.css";
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
