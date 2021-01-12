@@ -29,6 +29,7 @@
 .main_menu_bg_box_li {
   position: relative;
   list-style: none;
+  position: relative;
   display: flex;
   width: 1000px;
   margin: 0px auto;
@@ -43,6 +44,7 @@
 
 .main_menu_bg_box_li li {
   display: flex;
+  position: relative;
   font-size: 20px;
   height: 40px;
   align-items: center;
