@@ -22,26 +22,58 @@
 
 .social_login_pannel {
   display: flex;
-  font-size: 12px;
-  color: #ffdc00;
-  justify-content: center;
+  background: transparent;
+  text-transform: uppercase;
   align-items: center;
-  border: 1px solid #ffdc00;
-  margin-top: 10px;
-  border-radius: 20px;
+  justify-content: center;
   height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 15px;
+  color: rgba(223,190,106,0.7);
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+  background: linear-gradient(127deg,  #FFDC00, rgba(255, 255, 255, 0.8), rgba(255, 0, 0, 0), rgba(255, 0, 0, 0));
+  background-position: 40% 100%;
+  background-size: 300% 300%;
+  border: none;
+  border: 1px solid #FFDC00;
+}
+
+.social_login_pannel:hover {
+  background-position: 11% 1%;
+  color: rgba(255, 255, 255, 0.7);
+  
 }
 
 .email_login_pannel {
   display: flex;
-  font-size: 12px;
-  color: #1164f4;
-  justify-content: center;
+  background: transparent;
+  text-transform: uppercase;
   align-items: center;
-  border: 1px solid #1164f4;
-  margin-top: 10px;
-  border-radius: 20px;
+  justify-content: center;
+  
   height: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #1164f4;
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+  background: linear-gradient(127deg, #1164f4, rgba(255, 255, 255, 0.8), rgba(255, 0, 0, 0), rgba(255, 0, 0, 0));
+  background-position: 40% 100%;
+  background-size: 300% 300%;
+  border: none;
+  border: 1px solid #1164f4;
+}
+
+
+.email_login_pannel:hover {
+  background-position: 11% 1%;
+  color: rgba(255, 255, 255, 0.7);
+  
+
 }
 
 .login_navbar {
